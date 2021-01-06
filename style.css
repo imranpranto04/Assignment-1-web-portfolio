@@ -4,7 +4,7 @@ body{
     padding: 0%;
 }
 
-/* first section---------------------------- */
+/* -----------first section---------------------------- */
 
 .menu-top li{
     display: inline-block;
@@ -53,7 +53,7 @@ p{
     padding: 0%;
 }
 
-/* second section------------------------------- */
+/* --------------second section------------------------------- */
 
 .second-part{
     height: 1100px;
@@ -66,11 +66,11 @@ p{
     font-size: 40px;
 }
 
-/* third section work -------------------*/
+/* ----------------third section work -------------------*/
 .add-part{
     
     height: 600px;
-    background-color: rgb(242, 248, 248);
+    background-color: rgb(211, 241, 241);
     padding: 5%;
 }
 
@@ -108,7 +108,49 @@ h4{
     font-weight:700 ;
 }
 
-/* fifth section-------------------------- */
+/* ------------------fourth sectio for bonus---------------- */
+
+.review-h{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: tomato;
+    padding: 10px;
+    margin-top: 10%;
+}
+
+.review{
+    height: 720px;
+    margin-left:10% ;
+}
+
+.review-box{
+    margin:40px ;
+    padding: 20px;
+    height: 250px;
+    width: 35%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px grey;
+    float: left;
+    background-color: rgb(227, 240, 245);
+    
+}
+
+.review-box p{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: justify;
+    
+}
+
+.review-box h5{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: right;
+    color: #032c62;
+}
+
+/* ------------------fifth section-------------------------- */
 .inquiry-box {
     margin: 15% 20%;
     height: 200px;
@@ -132,12 +174,12 @@ h4{
     margin-left: 35%;
 }
 
-/* footer work------------------- */
+/* ----------------------footer work------------------- */
 
 footer p{
     text-align: center;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 footer h2{
@@ -147,7 +189,7 @@ footer h2{
 footer h2 a{ 
     text-decoration: none;
     color: #354149;
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 700;
 }
 
