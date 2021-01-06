@@ -1,31 +1,37 @@
-body{margin: 0%;
+body{
+    font-family: 'PT Serif', serif;
+    margin: 0%;
     padding: 0%;
-    font-family: 'Oxygen', sans-serif;
 }
+
+/* first section---------------------------- */
+
 .menu-top li{
     display: inline-block;
     padding: 10px;
+    color: dimgray;
 }
 
-.text-color{
-    color: lightslategray;
-}
-
-.name-color{
-    color:orange
-}
-
-ul{
+.menu-top ul{
     text-align: right;
+    padding-right: 10%;
+    font-weight: 600;
 }
 
-section{
-    margin: 5%;
-    padding: 2%;
-    
+.text-color {
+    color: #032c62;
+    font-weight: 700; 
+    font-size: 50px;
 }
-.first-part{
-    width: 30%;
+
+.name-color {
+    color: orange;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+p{
+    color: dimgray;
 }
 
 .button-click{
@@ -35,6 +41,115 @@ section{
     padding: 10px 20px;
 }
 
-.first-part img{
+.half-part{
+    width: 30%;
+    float: left;
+    margin-left: 5%;
+    padding: 5%;
+}
+
+.half-part img{
+    width: 100%;
+    padding: 0%;
+}
+
+/* second section------------------------------- */
+
+.second-part{
+    height: 1100px;
+    
+}
+
+.second-text{
+    color: #032c62;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+/* third section work -------------------*/
+.add-part{
+    
+    height: 600px;
+    background-color: rgb(242, 248, 248);
+    padding: 5%;
+}
+
+.latest{
+    color:tomato;
+    
+}
+.h3-color{
+    padding: 20px;
+    color: #032c62;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;   
+}
+
+.box-model{
+    margin:25px ;
+    padding: 10px;
+    height: 350px;
+    width: 27%;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 20px grey;
+    float: left;
+}
+
+.box-model img{
+    
+    height: 200px;
     width: 100%;
 }
+
+h4{
+    font-size: 20px;
+    font-weight:700 ;
+}
+
+/* fifth section-------------------------- */
+.inquiry-box {
+    margin: 15% 20%;
+    height: 200px;
+    border-radius: 20px;
+    background-image: url("images/bg.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.inquiry-box h1{
+    font-size: 40px;
+    font-weight: 700;
+    color:white;
+    padding:5%;
+    display: inline-block;
+}
+
+.inquiry-box a{
+    margin-left: 35%;
+}
+
+/* footer work------------------- */
+
+footer p{
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+footer h2{
+    text-align: center;
+}
+
+footer h2 a{ 
+    text-decoration: none;
+    color: #354149;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+
+
